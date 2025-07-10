@@ -1,5 +1,4 @@
 {
-  "version": 2,
   "builds": [
     {
       "src": "src/api.ts",
@@ -9,7 +8,6 @@
   "routes": [
     {
       "src": "/send-email",
-      "methods": ["POST"],
       "dest": "src/api.ts"
     }
   ]
